@@ -3,13 +3,25 @@ import './new.css';
 
 function App() {
   return (
-    <div className="new">
-     <h1><span>Y</span>ash<span>M</span></h1>
-     <div className="hero">
-<h1>I'm Yash</h1>
-<p>I am learning react js for create frontend website and UI </p>
-     </div>
-    </div>
+    <div className="hero">
+    <nav>
+        <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="skills">Skills</a></li>
+            <li><a href="projects">Projects</a></li>
+            <li><a href="contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="info">
+        <h1>I'm <span>Yash</span></h1>
+        <p>This is my official portfolio website to showcase my all works related to web development and UI design
+        </p>
+        <a href="download">Download CV</a>
+    </div>                 
+</div>
+
   );
 }
 
