@@ -1,8 +1,6 @@
 import React from 'react'
-
-import {Link} from 'react-router-dom'
-
-const ContactUs = () => {
+import { Link } from 'react-router-dom'
+const Service = () => {
   return (
     <div className="hero">
     <nav>
@@ -13,11 +11,9 @@ const ContactUs = () => {
         <li><Link to="/contactus">ContactUs</Link></li> 
         </ul>
     </nav>
-    <h2>This is ContactUs Page</h2>
-
+    <h2>This is Service Page</h2>
     </div>
-    
   )
 }
 
-export default ContactUs
+export default Service
